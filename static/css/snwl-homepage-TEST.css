@@ -1,0 +1,188 @@
+/* TEST ONLY*/
+
+/* Do not remove @charset encoding*/
+@charset "UTF-8";
+/* Trending Cards Images - ONLY CHANGE URLs and bg-position (if needed) */
+.trend-card-1 {
+  background: url("/images/banner/seahawk/hacker-craft-webcast.jpg") no-repeat center center;
+  background-size: cover;
+  background-position: right bottom;
+}
+.trend-card-2 {
+  background: url("/images/banner/seahawk/it-consultant-datacenter.jpg") no-repeat center center;
+  background-size: cover;
+  background-position: right bottom;
+}
+.trend-card-3 {
+  background: url("/images/banner/seahawk/christmas-shopping-risk.jpg") no-repeat center center;
+  background-size: cover;
+  background-position: right bottom;
+}
+  /* Hero Area / Jumbtron */
+.jumbotron {
+  background: url("/images/banner/seahawk/snwl-hero-sandbox-strategy.jpg") no-repeat center center;
+  height: 400px;
+  background-size: cover;
+  background-position: left top;
+}
+.valign-outer {
+  display: table;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.16);
+}
+.valign-outer .valign-inner {
+  display: table-cell;
+  vertical-align: middle;
+}
+#banner-headline {
+  text-shadow: 1px 1px #000;
+}
+#banner-subhead {
+  text-shadow: 1px 1px #000;
+}
+/*
+  @media (min-width: 1200px) {
+    .jumbotron {
+      background-position: right top;
+    }
+  }
+*/
+@media (min-width: 992px) {
+  .jumbotron {
+    height: 530px;
+  }
+}
+@media (min-width: 1440px) {
+  .jumbotron {
+    height: 600px !important;
+  /*background-size: contain; */
+    background-position: center bottom;
+    background-color: #999;
+  }
+}
+@media (max-width: 667px) {
+  .valign-outer .valign-inner {
+    vertical-align: bottom;
+  }
+  .xs-jumbotron-header {
+    background-color: rgba(99, 102, 106, 0.5);
+    padding: 20px;
+  }
+  .xs-jumbotron-header h1 {
+    font-size: 24px;
+  }
+}
+  /* Zig Zag / Editorial Section */
+@media (min-width: 992px) {
+  #zz-1-text {
+    margin-left: 30px;
+    padding-right: 0px;
+  }
+  #zz-2-text {
+    padding-right: 0px;
+  }
+  #zz-3-text {
+    margin-left: 30px;
+    padding-right: 0px;
+  }
+    /*
+    #zz-1-img{
+  }
+    #zz-2-img{
+  }
+    #zz-3-img{
+  }
+    */
+} 
+#show-hide-editorials.in,
+#show-hide-editorials.collapsing {
+    display: block !important;
+}
+  /* Misc Styles */
+.grey-bg-sw {
+  background-color: #f7f7f7;
+}
+.fill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+@media (max-width: 991px) {
+  .btn-block-sm {
+    display: block;
+    width: 100%;
+  }
+}
+.img-border-grey {
+  border: 1px solid #63666a;
+}
+.new-blockquote {
+  color: #4197B4 !important;
+  font-size: 18px !important;
+  line-height: 32px !important;
+}
+.btn-secondary {
+  color: #FFFFFF;
+  background-color: #63666a;
+  border: 1px solid #4a4a4a;
+}
+.h-50 {
+  height: 50px;
+}
+.customer-stories {
+  font-weight: bold;
+  font-size: 17px;
+}
+  /* HD Screen Sizes */
+@media (min-width: 1920px) {
+  #editorials {
+    line-height: 28px;
+  }
+}
+  /* Trending Cards Styles*/
+.card {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.card:hover {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25), 0 2px 10px 0 rgba(0, 0, 0, 0.30);
+}
+.card {
+  box-sizing: border-box;
+  border-radius: 2px;
+  background-clip: padding-box;
+  transition: box-shadow 0.5s ease;
+  background-color: #FFFFFF;
+}
+.card-title-block {
+  margin-bottom: 10px;
+}
+.card .card-image {
+  position: relative;
+  overflow: hidden;
+  height: 200px;
+  z-index: 999;
+}
+.card .card-content {
+  padding: 20px;
+  border-radius: 0 0 2px 2px;
+  background-clip: padding-box;
+  box-sizing: border-box;
+}
+.card .card-content p {
+  margin: 0;
+  padding: 0;
+}
+.card .card-action {
+  margin-top: 15px;
+}
+@media (max-width: 1440px) {
+.tc-container {
+    margin-right: auto !important; 
+    margin-left: auto !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    width: 100% !important;
+  }
+}
