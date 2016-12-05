@@ -4,31 +4,32 @@
 @charset "UTF-8";
 /* Trending Cards Images - ONLY CHANGE URLs and bg-position (if needed) */
 .trend-card-1 {
-  background: url("/images/banner/seahawk/Laptop-SonicWall-SMA-OS-12.jpg") no-repeat center center;
+  background: url("/images/banner/seahawk/hacker-craft-webcast.jpg") no-repeat center center;
   background-size: cover;
   background-position: right bottom;
 }
 .trend-card-2 {
-  background: url("/images/banner/seahawk/snwl-capture-card.jpg") no-repeat center center;
+  background: url("/images/banner/seahawk/it-consultant-datacenter.jpg") no-repeat center center;
   background-size: cover;
-  /* background-position: right top;*/
+  background-position: right bottom;
 }
 .trend-card-3 {
-  background: url("/images/banner/seahawk/Network-Risk-Black-Friday-Cyber-Monday.jpg") no-repeat center center;
+  background: url("/images/banner/seahawk/christmas-shopping-risk.jpg") no-repeat center center;
   background-size: cover;
-  background-position: right top;
+  background-position: right bottom;
 }
   /* Hero Area / Jumbtron */
 .jumbotron {
-  background: url("/images/banner/seahawk/snwl-hero-7.jpg") no-repeat center center;
+  background: url("/images/banner/seahawk/snwl-hero-sandbox-strategy.jpg") no-repeat center center;
   height: 400px;
   background-size: cover;
-  background-position: right top;
+  background-position: left top;
 }
 .valign-outer {
   display: table;
   width: 100%;
   height: 100%;
+  background-color: rgba(0, 0, 0, 0.16);
 }
 .valign-outer .valign-inner {
   display: table-cell;
@@ -54,7 +55,10 @@
 }
 @media (min-width: 1440px) {
   .jumbotron {
-    height: 650px !important;
+    height: 600px !important;
+  /*background-size: contain; */
+    background-position: center bottom;
+    background-color: #999;
   }
 }
 @media (max-width: 667px) {
@@ -91,6 +95,10 @@
   }
     */
 } 
+#show-hide-editorials.in,
+#show-hide-editorials.collapsing {
+    display: block !important;
+}
   /* Misc Styles */
 .grey-bg-sw {
   background-color: #f7f7f7;
@@ -129,9 +137,6 @@
 }
   /* HD Screen Sizes */
 @media (min-width: 1920px) {
-  #trending-cards {
-    background-color: #63666a !important;
-  }
   #editorials {
     line-height: 28px;
   }
@@ -172,13 +177,12 @@
 .card .card-action {
   margin-top: 15px;
 }
-@media (min-width: 1920px) {
-  .card .card-image {
-    height: 325px !important;
-  }
-}
-@media (min-width: 1366px) {
-  .card .card-image {
-    height: 260px;
+@media (max-width: 1440px) {
+.tc-container {
+    margin-right: auto !important; 
+    margin-left: auto !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    width: 100% !important;
   }
 }
