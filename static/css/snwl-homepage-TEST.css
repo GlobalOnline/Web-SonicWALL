@@ -20,7 +20,7 @@
 }
   /* Hero Area / Jumbtron */
 .jumbotron {
-  background: url("/images/banner/seahawk/snwl-hero-sandbox-strategy.jpg") no-repeat center center;
+  background: url("/images/banner/seahawk/ransomware-advanced-threats-hero.jpg") no-repeat center center;
   height: 400px;
   background-size: cover;
   background-position: left top;
@@ -55,10 +55,10 @@
 }
 @media (min-width: 1440px) {
   .jumbotron {
-    height: 600px !important;
+    height: 640px !important;
   /*background-size: contain; */
     background-position: center bottom;
-    background-color: #999;
+    background-color: #1c0323;
   }
 }
 @media (max-width: 667px) {
