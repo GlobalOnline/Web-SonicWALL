@@ -20,17 +20,17 @@
 }
   /* Hero Area / Jumbtron */
 .jumbotron {
-  background: url("/images/banner/seahawk/idc-hero-1.jpg") no-repeat center center;
+  background: url("/images/banner/seahawk/IDCs-Sean-Pike2.jpg") no-repeat center center;
   height: 400px;
   background-size: cover;
-  background-position: left top;
+  background-position: right top;
 }
 /* 1/16 update hero card2*/
 .valign-outer {
   display: table;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.16);
+  /*background-color: rgba(0, 0, 0, 0.16);*/
 }
 .valign-outer .valign-inner {
   display: table-cell;
@@ -58,7 +58,7 @@
   .jumbotron {
     height: 640px !important;
   /*background-size: contain; */
-    background-position: center bottom;
+    background-position: right top;
     background-color: #1c0323;
   }
 }
