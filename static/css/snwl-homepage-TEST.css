@@ -9,9 +9,9 @@
   background-position: right bottom;
 }
 .trend-card-2 {
-  background: url("/images/banner/seahawk/it-consultant-datacenter.jpg") no-repeat center center;
+  background: url("/images/banner/seahawk/snwlcapture-screenshot.jpg") no-repeat center center;
   background-size: cover;
-  background-position: right bottom;
+  background-position: left top;
 }
 .trend-card-3 {
   background: url("/images/banner/seahawk/christmas-shopping-risk.jpg") no-repeat center center;
@@ -20,11 +20,12 @@
 }
   /* Hero Area / Jumbtron */
 .jumbotron {
-  background: url("/images/banner/seahawk/ransomware-advanced-threats-hero.jpg") no-repeat center center;
+  background: url("/images/banner/seahawk/idc-hero-1.jpg") no-repeat center center;
   height: 400px;
   background-size: cover;
   background-position: left top;
 }
+/* 1/16 update hero card2*/
 .valign-outer {
   display: table;
   width: 100%;
