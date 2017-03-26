@@ -12,13 +12,13 @@
 .trend-card-2 {
   background: url("/images/banner/seahawk/UmbrellaCampaign-BreachPrevention-TRENDINGCARD-EncryptedThreats.gif") no-repeat center center;
   background-size: cover;
-  background-position: right bottom;
+  background-position: right top;
 }
 
 .trend-card-3 {
   background: url("/images/banner/seahawk/UmbrellaCampaign-BreachPrevention-TRENDINGCARD-Email.gif") no-repeat center center;
   background-size: cover;
-  background-position: left bottom;
+  background-position: left top;
 }
   /* Hero Area / Jumbtron */
 .jumbotron {
@@ -51,7 +51,7 @@
   display: table;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.16);
+  /*background-color: rgba(0, 0, 0, 0.16);*/
 }
 
 .valign-outer .valign-inner {
@@ -67,18 +67,22 @@
   /*text-shadow: 1px 1px #000;*/;
 }
 
-@media (max-width: 667px) {
+@media (max-width: 767px) {
   .valign-outer .valign-inner {
     vertical-align: bottom;
   }
 
   .xs-jumbotron-header {
-    background-color: rgba(99, 102, 106, 0.5);
-    padding: 20px;
+    background-color: rgba(99, 102, 106, 0.75);
+    padding: 15px;
   }
 
-  .xs-jumbotron-header h1 {
+  .xs-jumbotron-header h2 {
     font-size: 24px;
+  }
+
+  .xs-jumbotron-header h4 {
+    font-size: 16px;
   }
 }
 
