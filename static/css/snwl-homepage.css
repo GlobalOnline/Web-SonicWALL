@@ -1,52 +1,35 @@
-/* Do not remove @charset encoding */
+/* Do not remove @charset encoding*/
 @charset "UTF-8";
-/* Trending Cards Images - ONLY CHANGE URLs and bg-position (if needed) */
+/* Trending Cards Images - DO NOT CHANGE URLs OR BG-POSITION, PLEASE CHANGE IN OASIS TOP HEADER SCRIPT BOX */
 .trend-card-1 {
-  background: url("/images/banner/seahawk/snwl-ransomware-card.jpg") no-repeat center center;
+  background: url("/images/banner/fearless/card1-EN.gif") no-repeat center center;
   background-size: cover;
   background-position: right top;
 }
 
 .trend-card-2 {
-  background: url("/images/banner/seahawk/snwl-capture-card.jpg") no-repeat center center;
+  background: url("/images/banner/fearless/card2-EN.gif") no-repeat center center;
   background-size: cover;
-  /* background-position: right top; */;
+  background-position: right top;
 }
 
 .trend-card-3 {
-  background: url("/images/banner/seahawk/Multiple-exposure-with-business-and-night-cityscape-000080696529_XXXLarge.jpg") no-repeat center center;
+  background: url("/images/banner/fearless/card3-EN.gif") no-repeat center center;
   background-size: cover;
-  /* background-position: right top; */;
+  background-position: left top;
 }
   /* Hero Area / Jumbtron */
 .jumbotron {
-  background: url("/images/banner/seahawk/snwl-new-era-hero6.jpg") no-repeat center center;
+  background: url("/images/banner/fearless/hero-EN.jpg") no-repeat center center;
   height: 400px;
   background-size: cover;
+  background-position: -130px 15px;
+  background-color: #FFFFFF;
 }
 
-.valign-outer {
-  display: table;
-  width: 100%;
-  height: 100%;
-}
-
-.valign-outer .valign-inner {
-  display: table-cell;
-  vertical-align: middle;
-}
-
-h1#banner-headline {
-  text-shadow: 1px 1px #000;
-}
-
-h5#banner-subhead {
-  text-shadow: 1px 1px #000;
-}
-
-@media (min-width: 1200px) {
+@media (max-width: 767px) {
   .jumbotron {
-    background-position: right top;
+    background-position: bottom !important;
   }
 }
 
@@ -58,24 +41,49 @@ h5#banner-subhead {
 
 @media (min-width: 1440px) {
   .jumbotron {
-    height: 600px !important;
+    height: 640px !important;
   }
 }
 
-@media (max-width: 600px) {
+.valign-outer {
+  display: table;
+  width: 100%;
+  height: 100%;
+  /*background-color: rgba(0, 0, 0, 0.16);*/
+}
+
+.valign-outer .valign-inner {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#banner-headline {
+  /*text-shadow: 1px 1px #000;*/;
+}
+
+#banner-subhead {
+  /*text-shadow: 1px 1px #000;*/;
+}
+
+@media (max-width: 767px) {
   .valign-outer .valign-inner {
     vertical-align: bottom;
   }
 
   .xs-jumbotron-header {
-    background-color: rgba(99, 102, 106, 0.5);
-    padding: 20px;
+    background-color: rgba(99, 102, 106, 0.75);
+    padding: 15px;
   }
 
-  .xs-jumbotron-header h1 {
+  .xs-jumbotron-header h2 {
     font-size: 24px;
   }
+
+  .xs-jumbotron-header h4 {
+    font-size: 16px;
+  }
 }
+
   /* Zig Zag / Editorial Section */
 @media (min-width: 992px) {
   #zz-1-text {
@@ -100,7 +108,11 @@ h5#banner-subhead {
   }
     */;
 }
-  
+
+#show-hide-editorials.in,
+#show-hide-editorials.collapsing {
+  display: block !important;
+}
   /* Misc Styles */
 .grey-bg-sw {
   background-color: #f7f7f7;
@@ -122,6 +134,16 @@ h5#banner-subhead {
 
 .img-border-grey {
   border: 1px solid #63666a;
+}
+
+.mh-75 {
+  max-height: 75px;
+}
+
+@media (max-width: 767px) {
+  .text-white-xs {
+    color: #FFFFFF !important;
+  }
 }
 
 .new-blockquote {
@@ -146,10 +168,6 @@ h5#banner-subhead {
 }
   /* HD Screen Sizes */
 @media (min-width: 1920px) {
-  #trending-cards {
-    background-color: #63666a !important;
-  }
-
   #editorials {
     line-height: 28px;
   }
@@ -198,14 +216,12 @@ h5#banner-subhead {
   margin-top: 15px;
 }
 
-@media (min-width: 1920px) {
-  .card .card-image {
-    height: 280px !important;
-  }
-}
-
-@media (min-width: 1366px) {
-  .card .card-image {
-    height: 220px;
+@media (max-width: 1440px) {
+  .tc-container {
+    margin-right: auto !important;
+    margin-left: auto !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    width: 100% !important;
   }
 }
