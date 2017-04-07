@@ -2,19 +2,19 @@
 @charset "UTF-8";
 /* Trending Cards Images - DO NOT CHANGE URLs OR BG-POSITION, PLEASE CHANGE IN OASIS TOP HEADER SCRIPT BOX */
 .trend-card-1 {
-  background: url("/images/banner/fearless/card1-EN.gif") no-repeat center center;
+  background: url("/images/banner/fearless/card1-EN.jpg") no-repeat center center;
   background-size: cover;
-  background-position: right top;
+  background-position: right bottom;
 }
 
 .trend-card-2 {
-  background: url("/images/banner/fearless/card2-EN.gif") no-repeat center center;
+  background: url("/images/banner/fearless/card2-EN.jpg") no-repeat center center;
   background-size: cover;
-  background-position: right top;
+  background-position: right bottom;
 }
 
 .trend-card-3 {
-  background: url("/images/banner/fearless/card3-EN.gif") no-repeat center center;
+  background: url("/images/banner/fearless/card3-EN.jpg") no-repeat center center;
   background-size: cover;
   background-position: left top;
 }
@@ -138,6 +138,10 @@
 
 .mh-75 {
   max-height: 75px;
+}
+
+#footer {
+  margin-top: 0px !important;
 }
 
 @media (max-width: 767px) {
